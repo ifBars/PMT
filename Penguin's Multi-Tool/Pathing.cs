@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace Penguin_s_Multi_Tool
 {
@@ -19,20 +16,23 @@ namespace Penguin_s_Multi_Tool
                 foreach (FileInfo file in directory.GetFiles())
                 {
                     file.Delete();
+                    Console.WriteLine($"File {file.FullName} has been deleted.");
                 }
 
                 // Recursively delete all subdirectories and their files
                 foreach (DirectoryInfo subDirectory in directory.GetDirectories())
                 {
-                    delPath(subDirectory.FullName);
+                    foreach (FileInfo file in subDirectory.GetFiles())
+                    {
+                        file.Delete();
+                        Console.WriteLine($"File {file.FullName} has been deleted.");
+                    }
                 }
-
-                // Delete the current directory
-                directory.Delete();
             }
             catch (Exception ex)
             {
-                
+                Console.WriteLine($"Error deleting path {path}: {ex.Message}");
+                return;
             }
         }
 
