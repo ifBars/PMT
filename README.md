@@ -20,8 +20,8 @@ Usage
 
 Download the latest release of Penguin's Multi-Tool from the GitHub repository.
 Extract the downloaded archive to a directory of your choice.
-Open a command prompt and navigate to the directory where you extracted the tool.
-Run multitool.exe to start the application.
+Right click "Penguin's Multi-Tool.exe" and hover on "Send to", then press "Desktop (create shortcut)".
+You can then rename the shortcut that was created on your desktop, and double click the shortcut to run the application.
 Follow the on-screen instructions to select the desired utility.
 Note: Some of the utilities may require administrative privileges to run. Please make sure you run the application with administrative privileges if prompted.
 
