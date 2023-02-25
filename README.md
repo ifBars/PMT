@@ -1,4 +1,4 @@
-Penguin's Multi-Tool is a Windows console application that provides several useful utilities to help manage your system.
+Penguin's Multi-Tool is a Windows console application that provides several useful utilities to help manage your system and FiveM game.
 
 Features
 
@@ -8,7 +8,7 @@ Option 2: Clear ALL FiveM cache: This option clears all caches associated with t
 
 Option 3: Clear custom FiveM cache: This option allows you specify which FiveM cache directories you would like to clear.
 
-Option 4: Fix duplicate Rockstar license: This option fixes the "Duplicate license key" issue that sometimes occurs when running FiveM.
+Option 4: Fix duplicate Rockstar license: This option fixes the "Duplicate Rockstar License" issue that sometimes occurs when running FiveM.
 
 Option 5: Clear recycle bin: This option empties your Windows recycle bin.
 
@@ -19,10 +19,15 @@ Option 7: Check for updates: This option checks for updates to Penguin's Multi-T
 Usage
 
 Download the latest release of Penguin's Multi-Tool from the GitHub repository.
+
 Extract the downloaded archive to a directory of your choice.
-Open a command prompt and navigate to the directory where you extracted the tool.
-Run multitool.exe to start the application.
+
+Right click "Penguin's Multi-Tool.exe" and hover on "Send to", then press "Desktop (create shortcut)".
+
+You can then rename the shortcut that was created on your desktop, and double click the shortcut to run the application.
+
 Follow the on-screen instructions to select the desired utility.
+
 Note: Some of the utilities may require administrative privileges to run. Please make sure you run the application with administrative privileges if prompted.
 
 Contributions
