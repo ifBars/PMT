@@ -41,6 +41,8 @@ class Program
                 continue;
             }
 
+            bool doOutput = true;
+
             // Check which option was selected
             switch (choice)
             {
@@ -63,7 +65,9 @@ class Program
                     Option6();
                     break;
                 case 7:
-                    Option7();
+                    Task<string> emp = Option7();
+                    doOutput = false;
+                    Console.ReadKey();
                     break;
                 case 8:
                     quit = true;
@@ -73,9 +77,12 @@ class Program
                     break;
             }
 
-            Console.WriteLine();
-            Console.Write("Press any key to continue...");
-            Console.ReadKey();
+            if(doOutput == true)
+            {
+                Console.WriteLine();
+                Console.Write("Press any key to continue...");
+                Console.ReadKey();
+            }
         }
     }
 
@@ -149,9 +156,14 @@ class Program
         srp.CreateRestorePoint("Created by Penguin's Multi-Tool, Date: " + DateTime.Today.ToString());
     }
 
-    static void Option7()
+    static async Task<string> Option7()
     {
         Console.Clear();
-        Console.WriteLine("Option 7 selected.");
+        Console.WriteLine("Checking for updates...");
+        Penguin_s_Multi_Tool.Version v = new Penguin_s_Multi_Tool.Version("ifBars", "PMT");
+
+        var updateTask = v.checkUpdate();
+        string update = await updateTask;
+        return update;
     }
 }
