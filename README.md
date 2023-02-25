@@ -8,7 +8,7 @@ Option 2: Clear ALL FiveM cache: This option clears all caches associated with t
 
 Option 3: Clear custom FiveM cache: This option allows you specify which FiveM cache directories you would like to clear.
 
-Option 4: Fix duplicate Rockstar license: This option fixes the "Duplicate license key" issue that sometimes occurs when running FiveM.
+Option 4: Fix duplicate Rockstar license: This option fixes the "Duplicate Rockstar License" issue that sometimes occurs when running FiveM.
 
 Option 5: Clear recycle bin: This option empties your Windows recycle bin.
 
