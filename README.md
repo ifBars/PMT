@@ -6,7 +6,7 @@ Option 1: Clean temporary files: This option removes temporary files that may be
 
 Option 2: Clear ALL FiveM cache: This option clears all caches associated with the FiveM game.
 
-Option 3: Clear custom FiveM cache: This option allows you to specify a custom path to the FiveM cache directory that you want to clear.
+Option 3: Clear custom FiveM cache: This option allows you specify which FiveM cache directories you would like to clear.
 
 Option 4: Fix duplicate Rockstar license: This option fixes the "Duplicate license key" issue that sometimes occurs when running FiveM.
 
