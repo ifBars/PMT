@@ -5,7 +5,6 @@ namespace Penguin_s_Multi_Tool
 {
     public class Pathing
     {
-
         public void delPath(string path)
         {
             try
@@ -15,8 +14,15 @@ namespace Penguin_s_Multi_Tool
                 // Delete all files in the directory
                 foreach (FileInfo file in directory.GetFiles())
                 {
-                    file.Delete();
-                    Console.WriteLine($"File {file.FullName} has been deleted.");
+                    try
+                    {
+                        file.Delete();
+                        Console.WriteLine($"File {file.FullName} has been deleted.");
+                    }
+                    catch (IOException ex)
+                    {
+                        Console.WriteLine($"Error deleting file {file.FullName}: {ex.Message}");
+                    }
                 }
 
                 // Recursively delete all subdirectories and their files
@@ -24,18 +30,23 @@ namespace Penguin_s_Multi_Tool
                 {
                     foreach (FileInfo file in subDirectory.GetFiles())
                     {
-                        file.Delete();
-                        Console.WriteLine($"File {file.FullName} has been deleted.");
+                        try
+                        {
+                            file.Delete();
+                            Console.WriteLine($"File {file.FullName} has been deleted.");
+                        }
+                        catch (IOException ex)
+                        {
+                            Console.WriteLine($"Error deleting file {file.FullName}: {ex.Message}");
+                        }
                     }
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error deleting path {path}: {ex.Message}");
-                return;
             }
         }
-
 
         public void delFile(string path)
         {
@@ -44,11 +55,14 @@ namespace Penguin_s_Multi_Tool
                 File.Delete(path);
                 Console.WriteLine($"File {path} has been deleted.");
             }
+            catch (IOException ex)
+            {
+                Console.WriteLine($"Error deleting file {path}: {ex.Message}");
+            }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error deleting file {path}: {ex.Message}");
             }
         }
-
     }
 }
