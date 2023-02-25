@@ -17,6 +17,7 @@ Option 6: Create system restore point: This option creates a system restore poin
 Option 7: Check for updates: This option checks for updates to Penguin's Multi-Tool and displays a message if a new version is available.
 
 Usage
+
 Download the latest release of Penguin's Multi-Tool from the GitHub repository.
 Extract the downloaded archive to a directory of your choice.
 Open a command prompt and navigate to the directory where you extracted the tool.
@@ -25,4 +26,5 @@ Follow the on-screen instructions to select the desired utility.
 Note: Some of the utilities may require administrative privileges to run. Please make sure you run the application with administrative privileges if prompted.
 
 Contributions
+
 Contributions to Penguin's Multi-Tool are always welcome! If you find a bug or have an idea for a new feature, please feel free to open an issue or a pull request on the GitHub repository.
