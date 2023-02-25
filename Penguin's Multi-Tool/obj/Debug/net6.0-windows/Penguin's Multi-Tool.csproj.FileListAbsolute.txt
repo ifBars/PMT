@@ -3,6 +3,7 @@ C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\
 C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0-windows\Penguin's Multi-Tool.runtimeconfig.json
 C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0-windows\Penguin's Multi-Tool.dll
 C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0-windows\Penguin's Multi-Tool.pdb
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0-windows\System.CodeDom.dll
 C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0-windows\System.Management.dll
 C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
@@ -17,6 +18,3 @@ C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\
 C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0-windows\Penguin's Multi-Tool.pdb
 C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0-windows\Penguin's Multi-Tool.genruntimeconfig.cache
 C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0-windows\ref\Penguin's Multi-Tool.dll
-C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0-windows\Interop.Shell32.dll
-C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0-windows\Penguin's Multi-Tool.csproj.ResolveComReference.cache
-C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
