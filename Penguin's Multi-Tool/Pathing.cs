@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace Penguin_s_Multi_Tool
 {
@@ -11,8 +12,7 @@ namespace Penguin_s_Multi_Tool
             {
                 DirectoryInfo directory = new DirectoryInfo(path);
 
-                // Delete all files in the directory
-                foreach (FileInfo file in directory.GetFiles())
+                Parallel.ForEach(directory.GetFiles(), file =>
                 {
                     try
                     {
@@ -23,24 +23,28 @@ namespace Penguin_s_Multi_Tool
                     {
                         Console.WriteLine($"Error deleting file {file.FullName}: {ex.Message}");
                     }
-                }
-
-                // Recursively delete all subdirectories and their files
-                foreach (DirectoryInfo subDirectory in directory.GetDirectories())
-                {
-                    foreach (FileInfo file in subDirectory.GetFiles())
+                    catch (Exception ex)
                     {
-                        try
-                        {
-                            file.Delete();
-                            Console.WriteLine($"File {file.FullName} has been deleted.");
-                        }
-                        catch (IOException ex)
-                        {
-                            Console.WriteLine($"Error deleting file {file.FullName}: {ex.Message}");
-                        }
+                        Console.WriteLine($"Error deleting file {file.FullName}: {ex.Message}");
                     }
-                }
+                });
+
+                Parallel.ForEach(directory.GetDirectories(), subDirectory =>
+                {
+                    try
+                    {
+                        subDirectory.Delete(true);
+                        Console.WriteLine($"Directory {subDirectory.FullName} has been deleted.");
+                    }
+                    catch (IOException ex)
+                    {
+                        Console.WriteLine($"Error deleting directory {subDirectory.FullName}: {ex.Message}");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Error deleting directory {subDirectory.FullName}: {ex.Message}");
+                    }
+                });
             }
             catch (Exception ex)
             {
