@@ -1,4 +1,3 @@
-										Penguin's Multi-Tool
 Penguin's Multi-Tool is a Windows console application that provides several useful utilities to help manage your system.
 
 Features
