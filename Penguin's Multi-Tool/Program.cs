@@ -140,7 +140,6 @@ class Program
             Bin b = new Bin();
 
             b.EmptyRecycleBin();
-            Console.WriteLine("Recycle Bin Cleared");
         }
         else
         {
