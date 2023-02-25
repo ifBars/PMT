@@ -1,4 +1,4 @@
-Penguin's Multi-Tool is a Windows console application that provides several useful utilities to help manage your system.
+Penguin's Multi-Tool is a Windows console application that provides several useful utilities to help manage your system and FiveM game.
 
 Features
 
