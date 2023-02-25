@@ -1,0 +1,19 @@
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0\Penguin's Multi-Tool.exe
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0\Penguin's Multi-Tool.deps.json
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0\Penguin's Multi-Tool.runtimeconfig.json
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0\Penguin's Multi-Tool.dll
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0\Penguin's Multi-Tool.pdb
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0\Penguin's Multi-Tool.csproj.AssemblyReference.cache
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0\Penguin's Multi-Tool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0\Penguin's Multi-Tool.AssemblyInfoInputs.cache
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0\Penguin's Multi-Tool.AssemblyInfo.cs
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0\Penguin's Multi-Tool.csproj.CoreCompileInputs.cache
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0\Penguin's Multi-Tool.dll
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0\refint\Penguin's Multi-Tool.dll
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0\Penguin's Multi-Tool.pdb
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0\Penguin's Multi-Tool.genruntimeconfig.cache
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0\ref\Penguin's Multi-Tool.dll
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0\System.Management.dll
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\ghost\source\repos\Penguin's Multi-Tool\Penguin's Multi-Tool\obj\Debug\net6.0\Penguin's Multi-Tool.csproj.CopyComplete

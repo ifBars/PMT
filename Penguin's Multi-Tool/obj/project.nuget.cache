@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "s/MOvv2MDuZR2uJdJFZ6mDtvZbzi/DNROa7KrVvDPXLArCRSTERF8ab20G1dTqM61zABpHXoEftT31TPbefzpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ghost\\source\\repos\\Penguin's Multi-Tool\\Penguin's Multi-Tool\\Penguin's Multi-Tool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ghost\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\ghost\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
