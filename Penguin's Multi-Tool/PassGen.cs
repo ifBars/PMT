@@ -12,6 +12,14 @@ namespace Penguin_s_Multi_Tool
 
         public string generatePass(int length, bool useSpecialChars)
         {
+
+            if (length > 100000)
+            {
+
+                return "Error: This tool is limited to 100,000 character passwords.";
+
+            }
+
             const string validChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
             const string specialChars = "!@#$%^&*().,";
 
@@ -35,6 +43,7 @@ namespace Penguin_s_Multi_Tool
                 }
             }
 
+            GC.Collect();
             return sb.ToString();
         }
 

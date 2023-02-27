@@ -9,7 +9,7 @@ namespace Penguin_s_Multi_Tool
     public class CustomCache
     {
 
-        public void runCheck()
+        public static void runCheck()
         {
             string userProfilePath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
 
@@ -122,6 +122,8 @@ namespace Penguin_s_Multi_Tool
             {
                 p.delPath(Path.Combine(userProfilePath, "AppData", "Local", "Temp"));
             }
+
+            GC.Collect();
         }
 
     }

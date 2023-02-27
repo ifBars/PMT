@@ -75,25 +75,22 @@ class Program
     static void Option1()
     {
         Console.Clear();
-        Cache c = new Cache();
 
-        c.runClearTmp();
+        Cache.runClearTmp();
     }
 
     static void Option2()
     {
         Console.Clear();
-        Cache c = new Cache();
 
-        c.runClear();
+        Cache.runClear();
     }
 
     static void Option3()
     {
         Console.Clear();
-        CustomCache cc = new CustomCache();
 
-        cc.runCheck();
+        CustomCache.runCheck();
     }
 
     static void Option4()
@@ -184,7 +181,11 @@ class Program
     {
         Console.Clear();
 
-        Console.WriteLine("This is still being worked on...");
+        // Console.WriteLine("This is still being worked on...");
+
+        bool fixedbool = RegFix.FixRegistry();
+
+        // Console.WriteLine("Debug: bool = " + fixedbool.ToString());
 
     }
 

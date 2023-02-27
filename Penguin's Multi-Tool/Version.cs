@@ -29,7 +29,7 @@ namespace Penguin_s_Multi_Tool
 
         public string getVersion()
         {
-            string ver = "v0.0.7";
+            string ver = "v0.0.8";
             return ver;
         }
 

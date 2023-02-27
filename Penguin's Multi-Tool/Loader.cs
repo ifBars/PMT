@@ -27,7 +27,7 @@ namespace Penguin_s_Multi_Tool
             Console.WriteLine(" 2. Clear ALL FiveM cache   |   6. Create system restore point");
             Console.WriteLine(" 3. Clear custom FiveM cache   |   7. Check for updates");
             Console.WriteLine(" 4. Fix duplicate rockstar license   |   8. Generate password");
-            Console.WriteLine(" 9. Encrypt/Decrypt text   |   10. Quit");
+            Console.WriteLine(" 9. Fix Registry Entries   |   10. Quit");
             Console.ResetColor();
             Console.WriteLine();
 
@@ -35,6 +35,7 @@ namespace Penguin_s_Multi_Tool
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("Enter a number to select an option: ");
             Console.ResetColor();
+
         }
 
     }

@@ -41,6 +41,8 @@ namespace Penguin_s_Multi_Tool
             {
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
+
+            GC.Collect();
         }
     }
 }

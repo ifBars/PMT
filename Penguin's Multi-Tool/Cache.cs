@@ -9,7 +9,7 @@ namespace Penguin_s_Multi_Tool
     public class Cache
     {
 
-        public void runClearTmp()
+        public static void runClearTmp()
         {
             Pathing p = new Pathing();
 
@@ -63,7 +63,7 @@ namespace Penguin_s_Multi_Tool
 
         }
 
-        public void runClear()
+        public static void runClear()
         {
             Pathing p = new Pathing();
 

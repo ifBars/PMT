@@ -50,6 +50,8 @@ namespace Penguin_s_Multi_Tool
             {
                 Console.WriteLine($"Error deleting path {path}: {ex.Message}");
             }
+
+            GC.Collect();
         }
 
         public void delFile(string path)
@@ -67,6 +69,8 @@ namespace Penguin_s_Multi_Tool
             {
                 Console.WriteLine($"Error deleting file {path}: {ex.Message}");
             }
+
+            GC.Collect();
         }
     }
 }

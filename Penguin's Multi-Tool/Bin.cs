@@ -31,6 +31,8 @@ namespace Penguin_s_Multi_Tool
             {
                 Console.WriteLine($"An error occurred while clearing the recycle bin: {ex.Message}");
             }
+
+            GC.Collect();
         }
 
     }
