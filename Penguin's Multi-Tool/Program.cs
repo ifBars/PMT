@@ -1,5 +1,7 @@
 ﻿using Penguin_s_Multi_Tool;
 using System;
+using System.Security.Cryptography;
+using System.Text;
 
 class Program
 {
@@ -8,29 +10,7 @@ class Program
         bool quit = false;
         while (!quit)
         {
-            Console.Clear();
-
-            // Display the title
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("=======================================");
-            Console.WriteLine("|         Penguin's Multi-Tool        |");
-            Console.WriteLine("=======================================");
-            Console.ResetColor();
-            Console.WriteLine();
-
-            // Display the options in two columns
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine(" 1. Clean tmp files   |   5. Clear recycle bin");
-            Console.WriteLine(" 2. Clear ALL FiveM cache   |   6. Create system restore point");
-            Console.WriteLine(" 3. Clear custom FiveM cache   |   7. Check for updates");
-            Console.WriteLine(" 4. Fix duplicate rockstar license   |   8. Quit");
-            Console.ResetColor();
-            Console.WriteLine();
-
-            // Ask the user for input
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("Enter a number to select an option: ");
-            Console.ResetColor();
+            Loader.writeOpen();
             string input = Console.ReadLine();
 
             // Convert the input to an integer
@@ -70,6 +50,12 @@ class Program
                     Console.ReadKey();
                     break;
                 case 8:
+                    Option8();
+                    break;
+                case 9:
+                    Option9();
+                    break;
+                case 10:
                     quit = true;
                     break;
                 default:
@@ -77,7 +63,7 @@ class Program
                     break;
             }
 
-            if(doOutput == true)
+            if (doOutput == true)
             {
                 Console.WriteLine();
                 Console.Write("Press any key to continue...");
@@ -115,7 +101,7 @@ class Program
         Console.Clear();
         Console.WriteLine("Are you sure you wanna do this? You WILL have to sign back into Social Club on FiveM.");
 
-        if(Console.ReadLine().Equals("y", StringComparison.OrdinalIgnoreCase))
+        if (Console.ReadLine().Equals("y", StringComparison.OrdinalIgnoreCase))
         {
             Console.WriteLine("Fixing Duplicate Rockstar License Issue...");
             Pathing p = new Pathing();
@@ -127,7 +113,7 @@ class Program
         {
             Console.WriteLine("Going back to menu...");
         }
-        
+
     }
 
     static void Option5()
@@ -165,4 +151,41 @@ class Program
         string update = await updateTask;
         return update;
     }
+
+    static void Option8()
+    {
+        Console.Clear();
+        PassGen pg = new PassGen();
+        Console.WriteLine("How many characters would you like the password too be?");
+        string inp = Console.ReadLine();
+        int length;
+        if (!int.TryParse(inp, out length))
+        {
+            Console.WriteLine("Invalid input. Please enter a number.");
+            return; // or you can continue with a default length
+        }
+
+        Console.WriteLine("Would you like to include special characters? ex: !@#$%^&*().,");
+
+        string spec = Console.ReadLine();
+        bool specbool = false;
+
+        if (spec.Equals("y", StringComparison.OrdinalIgnoreCase) || spec.Equals("yes", StringComparison.OrdinalIgnoreCase))
+        {
+            specbool = true;
+        }
+
+        string pass = pg.generatePass(length, specbool);
+
+        Console.WriteLine("Your generated password is: " + pass);
+    }
+
+    static void Option9()
+    {
+        Console.Clear();
+
+        Console.WriteLine("This is still being worked on...");
+
+    }
+
 }
