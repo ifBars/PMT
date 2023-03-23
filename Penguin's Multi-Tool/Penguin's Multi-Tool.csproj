@@ -14,7 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Squid-Box.SevenZipSharp" Version="1.5.2.21" />
     <PackageReference Include="System.Management" Version="7.0.0" />
   </ItemGroup>
 

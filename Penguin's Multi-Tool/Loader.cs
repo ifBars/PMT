@@ -23,11 +23,12 @@ namespace Penguin_s_Multi_Tool
 
             // Display the options in two columns
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine(" 1. Clean tmp files   |   5. Clear recycle bin");
-            Console.WriteLine(" 2. Clear ALL FiveM cache   |   6. Create system restore point");
-            Console.WriteLine(" 3. Clear custom FiveM cache   |   7. Check for updates");
-            Console.WriteLine(" 4. Fix duplicate rockstar license   |   8. Generate password");
-            Console.WriteLine(" 9. Fix Registry Entries   |   10. Quit");
+            Console.WriteLine(" 1. Clean tmp files                  |   7. Check for updates");
+            Console.WriteLine(" 2. Clear ALL FiveM cache            |   8. Generate password");
+            Console.WriteLine(" 3. Clear custom FiveM cache         |   9. Fix registry entries");
+            Console.WriteLine(" 4. Fix duplicate rockstar license   |   10. Convert DS Save");
+            Console.WriteLine(" 5. Clear recycle bin                |   11. Quit");
+            Console.WriteLine(" 6. Create system restore point      |           ");
             Console.ResetColor();
             Console.WriteLine();
 

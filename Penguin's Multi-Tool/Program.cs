@@ -56,6 +56,9 @@ class Program
                     Option9();
                     break;
                 case 10:
+                    Option10();
+                    break;
+                case 11:
                     quit = true;
                     break;
                 default:
@@ -187,6 +190,15 @@ class Program
 
         // Console.WriteLine("Debug: bool = " + fixedbool.ToString());
 
+    }
+
+    static void Option10()
+    {
+        Console.Clear();
+
+        // Console.WriteLine("This is still being worked on...");
+
+        DSSaves.Convert();
     }
 
 }

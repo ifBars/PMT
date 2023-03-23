@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ghost\\source\\repos\\Penguin's Multi-Tool\\Penguin's Multi-Tool\\Penguin's Multi-Tool.csproj": {}
+    "C:\\Users\\ghost\\Desktop\\C#\\PMT\\PMT\\Penguin's Multi-Tool\\Penguin's Multi-Tool.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ghost\\source\\repos\\Penguin's Multi-Tool\\Penguin's Multi-Tool\\Penguin's Multi-Tool.csproj": {
+    "C:\\Users\\ghost\\Desktop\\C#\\PMT\\PMT\\Penguin's Multi-Tool\\Penguin's Multi-Tool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ghost\\source\\repos\\Penguin's Multi-Tool\\Penguin's Multi-Tool\\Penguin's Multi-Tool.csproj",
+        "projectUniqueName": "C:\\Users\\ghost\\Desktop\\C#\\PMT\\PMT\\Penguin's Multi-Tool\\Penguin's Multi-Tool.csproj",
         "projectName": "Penguin's Multi-Tool",
-        "projectPath": "C:\\Users\\ghost\\source\\repos\\Penguin's Multi-Tool\\Penguin's Multi-Tool\\Penguin's Multi-Tool.csproj",
+        "projectPath": "C:\\Users\\ghost\\Desktop\\C#\\PMT\\PMT\\Penguin's Multi-Tool\\Penguin's Multi-Tool.csproj",
         "packagesPath": "C:\\Users\\ghost\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ghost\\source\\repos\\Penguin's Multi-Tool\\Penguin's Multi-Tool\\obj\\",
+        "outputPath": "C:\\Users\\ghost\\Desktop\\C#\\PMT\\PMT\\Penguin's Multi-Tool\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,7 +46,11 @@
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.2, )"
+              "version": "[13.0.3, )"
+            },
+            "Squid-Box.SevenZipSharp": {
+              "target": "Package",
+              "version": "[1.5.2.21, )"
             },
             "System.Management": {
               "target": "Package",
